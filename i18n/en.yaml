@@ -1,25 +1,25 @@
 ## Meta tags
 - id: "meta_title"
-  translation: "Adritian - a high performance hugo theme by Adrián Moreno"
+  translation: "Emma Yann Zhang | AI Researcher, Entrepreneur, and Innovator"
 - id: "meta_description"
-  translation: "This hugo theme (Adritian) is based on Bootstrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications."
+  translation: "This is the personal website of Emma Yann Zhang."
 - id: "meta_keywords"
-  translation: "hugo, theme, bootstrap, adritian, adrian moreno, personal site, portfolio, single page application"
+  translation: "emma yann zhang, ai, kissenger, researcher, entrepreneur, personal site, portfolio"
 - id: "meta_author"
-  translation: "Adrián Moreno Peña"
+  translation: "Emma Yann Zhang"
 - id: "meta_image"
   translation: "/img/general/og-image.jpg"
 
 ## Header
 
 - id: "logo_alt"
-  translation: "Adritian logo"
+  translation: "Website logo"
 
 - id: "logo_text1"
-  translation: "Adritian"
+  translation: ""
 
 - id: "logo_text2"
-  translation: "Demo"
+  translation: "Emma Yann Zhang"
 
 ## General
 - id: "skipToMainContent"
@@ -47,10 +47,10 @@
 
 ## Homepage head title
 - id: "head_title"
-  translation: "Demo site for Adritian - a high performance hugo theme by Adrián Moreno"
+  translation: "Emma Yann Zhang | AI Researcher"
 
 - id: "head_description"
-  translation: "This hugo theme (Adritian) is based on Bootstrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications."
+  translation: "This is the personal website of Emma Yann Zhang, an AI researcher and entrepreneur. Explore my work, research, and blog posts."
 
 
 ## Blog

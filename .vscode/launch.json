@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Hugo Server",
+        "type": "node",
+        "request": "launch",
+        "runtimeExecutable": "hugo",
+        "runtimeArgs": [
+          "server",
+          "-D",
+          "--baseURL=https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/",
+          "--appendPort=false",
+          "--bind=0.0.0.0"
+        ],
+        "console": "integratedTerminal"
+      }
+    ]
+  }

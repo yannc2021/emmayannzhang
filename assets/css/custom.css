@@ -1,0 +1,5 @@
+.experience-container {
+    max-width: var(--theme-content-width); /* Match theme's content width */
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
