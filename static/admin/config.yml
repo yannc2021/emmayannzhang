@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
-  branch: main  # Replace with your branch name (e.g., "master" or "main")
+  name: auth0
+  domain: ${AUTH0_DOMAIN}
+  client_id: ${AUTH0_CLIENT_ID}
+  redirect_uri: https://emmayannzhang.me/admin/
 
 media_folder: "static/images/uploads"  # Where uploaded images are stored
 public_folder: "/images/uploads"
