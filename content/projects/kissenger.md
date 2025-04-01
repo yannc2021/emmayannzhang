@@ -3,7 +3,7 @@ date: '2024-08-25T09:53:42+02:00' # date in which the content is created - defau
 title: 'Swiss Fintech Website'
 draft: false # set to "true" if you want to hide the content 
 
-link: "https://www.adrianmoreno.info" # optional URL to link the logo to
+link: "kissenger.info" # optional URL to link the logo to
 
 params:
     button:
