@@ -25,13 +25,22 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Draft", name: "draft", widget: "boolean" }
-      - { label: "Link", name: "link", widget: "string" }
-      - { label: "Button Icon", name: "params.button.icon", widget: "string", default: "icon-arrow-right" }
-      - { label: "Button Text", name: "params.button.btnText", widget: "string", default: "Case Study" }
-      - { label: "Button URL", name: "params.button.URL", widget: "string" }
-      - { label: "Project Image", name: "params.image.src", widget: "image" }
-      - { label: "Image Scale", name: "params.image.scale", widget: "number", min: 0, max: 1, step: 0.1, default: 0.5 }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Link", name: "link", widget: "string", required: false  }
+      - label: "Button"
+        name: "params.button"
+        widget: "object"
+        fields:
+          - { label: "Icon", name: "icon", widget: "string", default: "icon-arrow-right", required: false }
+          - { label: "Button Text", name: "btnText", widget: "string", default: "Case Study", required: false }
+          - { label: "Button URL", name: "URL", widget: "string", required: false }
+      - label: "Image"
+        name: "params.image"
+        widget: "object"
+        fields:
+          - { label: "Image Source", name: "src", widget: "image", required: false }
+          - { label: "Image Scale", name: "scale", widget: "number", min: 0, max: 1, step: 0.1, value_type: "float", default: 0.5, required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Body", name: "body", widget: "markdown" , required: false }
 
   - name: "education"
     label: "Education"
@@ -42,9 +51,9 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Draft", name: "draft", widget: "boolean" }
-      - { label: "University", name: "university", widget: "string" }
-      - { label: "Degree", name: "degree", widget: "string" }
-      - { label: "Year", name: "year", widget: "string" }
+      - { label: "University", name: "university", widget: "string", required: false  }
+      - { label: "Degree", name: "degree", widget: "string", required: false  }
+      - { label: "Year", name: "year", widget: "string" , required: false }
 
   - name: "experience"
     label: "Experience"
@@ -52,14 +61,14 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Title", name: "title", widget: "string", required: false  }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Draft", name: "draft", widget: "boolean" }
-      - { label: "Job Title", name: "jobTitle", widget: "string" }
-      - { label: "Company", name: "company", widget: "string" }
-      - { label: "Location", name: "location", widget: "string" }
-      - { label: "Duration", name: "duration", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Job Title", name: "jobTitle", widget: "string", required: false  }
+      - { label: "Company", name: "company", widget: "string" , required: false }
+      - { label: "Location", name: "location", widget: "string" , required: false }
+      - { label: "Duration", name: "duration", widget: "string" , required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
 
   - name: "client-work"
     label: "Client Work"
