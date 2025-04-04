@@ -25,23 +25,27 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Draft", name: "draft", widget: "boolean" }
-      - { label: "Link", name: "link", widget: "string", required: false  }
-      
-      - label: "Button"
-        name: "params.button"
+      - { label: "Link", name: "link", widget: "string", required: false }
+
+      - label: "Params"
+        name: "params"
         widget: "object"
         fields:
-          - { label: "Icon", name: "icon", widget: "string", default: "icon-arrow-right", required: false }
-          - { label: "Button Text", name: "btnText", widget: "string", default: "Case Study", required: false }
-          - { label: "Button URL", name: "URL", widget: "string", required: false }
-      
-      - label: "Image"
-        name: "params.image"
-        widget: "object"
-        fields:
-          - { label: "Image Source", name: "src", widget: "image", required: false }
-          - { label: "Image Scale", name: "scale", widget: "number", min: 0, max: 1, step: 0.1, value_type: "float", default: 0.5, required: false }
-      
+          - label: "Button"
+            name: "button"
+            widget: "object"
+            fields:
+              - { label: "Icon", name: "icon", widget: "string", required: false }
+              - { label: "Button Text", name: "btnText", widget: "string", required: false }
+              - { label: "Button URL", name: "URL", widget: "string", required: false }
+
+          - label: "Image"
+            name: "image"
+            widget: "object"
+            fields:
+              - { label: "Image Source", name: "src", widget: "image", required: false }
+              - { label: "Image Scale", name: "scale", widget: "number", min: 0, max: 1, step: 0.1, value_type: "float", default: 0.5, required: false }
+
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
   - name: "education"

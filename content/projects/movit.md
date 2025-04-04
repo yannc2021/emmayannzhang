@@ -1,20 +1,19 @@
 ---
-date: '2024-08-25T09:53:42+02:00' # date in which the content is created - defaults to "today"
-title: 'Radity Finance - UI Kit'
+date: '2014-08-25T09:53:42+02:00' # date in which the content is created - defaults to "today"
+title: 'Movit'
 draft: false # set to "true" if you want to hide the content 
 
-link: "https://www.adrianmoreno.info" # optional URL to link the logo to
+link: "" # optional URL to link the logo to
 
 params:
     button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "https://www.adrianmoreno.info"
+        btnText: "Find out more"
+        URL: ""
     image:
-        src: "images/works/radity-finance.jpg"
-        scale: 0.5
+        src: "images/works/movit.png"
+        scale: 0.25
 
 ## The content is used for the description of the project
 ---
-
-We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech.
+Movit is a wearable gesture control wristband that allows users to control mobile and PC apps remotely using intuitive hand gestures. The wristband, embedded with an accelerometer, is lightweight, affordable, and easily integrates with various devices. Movit recognizes user-defined gestures for a more personalized experience. It features a novel signal gesture method to distinguish control gestures from natural hand movements, enabling completely hands-free operation. Movit connects to mobile phones and computers via Bluetooth Low Energy.

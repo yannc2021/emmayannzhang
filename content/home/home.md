@@ -23,15 +23,11 @@ draft = false
 {{< /platform-links >}}
 
 <div class="container">
-  {{< experience-list title="Experience" >}}
+{{< experience-list title="Experience" >}}
 </div>
 
-{{< education-list
-    title="Education" >}}
-
-{{< client-and-work-section
-    title="Press" >}} 
-
+{{< projects-list
+    title="My Work" >}} 
 
 {{< contact-section
     title="Reach out" 
