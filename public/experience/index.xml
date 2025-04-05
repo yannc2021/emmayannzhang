@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Experience on </title>
-    <link>https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/experience/</link>
+    <link>http://localhost:1313/experience/</link>
     <description>Recent content in Experience on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 31 Mar 2025 11:41:17 +0000</lastBuildDate>
-    <atom:link href="https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/experience/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/experience/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/experience/frost/</link>
+      <link>http://localhost:1313/experience/frost/</link>
       <pubDate>Mon, 31 Mar 2025 11:41:17 +0000</pubDate>
-      <guid>https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/experience/frost/</guid>
+      <guid>http://localhost:1313/experience/frost/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;Led AI team in developing a RAG application to advance company research capabilities&lt;/li&gt;&#xA;&lt;li&gt;Conducted research on AI solutions and held meetings to align team progress with company objectives&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/experience/tamo/</link>
+      <link>http://localhost:1313/experience/tamo/</link>
       <pubDate>Mon, 31 Mar 2025 11:41:11 +0000</pubDate>
-      <guid>https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/experience/tamo/</guid>
+      <guid>http://localhost:1313/experience/tamo/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;Designed and prototyped a touch-enhanced social robot for children.&lt;/li&gt;&#xA;&lt;li&gt;Responsible for customer research, ideation, prototype design and development&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/experience/facebook/</link>
+      <link>http://localhost:1313/experience/facebook/</link>
       <pubDate>Mon, 31 Mar 2025 11:40:56 +0000</pubDate>
-      <guid>https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/experience/facebook/</guid>
+      <guid>http://localhost:1313/experience/facebook/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;Provided first level technical support for the Facebook developers, analyzing bug reports and recommending improvements&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/experience/imagineering/</link>
+      <link>http://localhost:1313/experience/imagineering/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0100</pubDate>
-      <guid>https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/experience/imagineering/</guid>
+      <guid>http://localhost:1313/experience/imagineering/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;Developed multisensory systems for transmitting touch, taste, smell sensations over the Internet&lt;/li&gt;&#xA;&lt;li&gt;Managed teams of engineers across various projects, assisted lab director with a wide range of tasks&lt;/li&gt;&#xA;&lt;li&gt;Delivered public speeches and demonstrations at international conferences and exhibitions&lt;/li&gt;&#xA;&lt;li&gt;Organised and coordinated several international conferences&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/experience/ukti/</link>
+      <link>http://localhost:1313/experience/ukti/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0100</pubDate>
-      <guid>https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/experience/ukti/</guid>
+      <guid>http://localhost:1313/experience/ukti/</guid>
       <description>&lt;p&gt;As part of a small startup team, I contributed to the frontend development of a fashion rental platform&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/experience/hkust-nie/</link>
+      <link>http://localhost:1313/experience/hkust-nie/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0100</pubDate>
-      <guid>https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/experience/hkust-nie/</guid>
+      <guid>http://localhost:1313/experience/hkust-nie/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;Created a gesture-controlled wearable device&lt;/li&gt;&#xA;&lt;li&gt;Coached students on developing iOS apps&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

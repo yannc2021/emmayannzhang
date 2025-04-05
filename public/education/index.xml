@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Educations on </title>
-    <link>https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/education/</link>
+    <link>http://localhost:1313/education/</link>
     <description>Recent content in Educations on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 31 Mar 2025 10:33:15 +0000</lastBuildDate>
-    <atom:link href="https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/education/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/education/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NUIST</title>
-      <link>https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/education/nuist/</link>
+      <link>http://localhost:1313/education/nuist/</link>
       <pubDate>Mon, 31 Mar 2025 10:33:15 +0000</pubDate>
-      <guid>https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/education/nuist/</guid>
+      <guid>http://localhost:1313/education/nuist/</guid>
       <description></description>
     </item>
     <item>
       <title>London</title>
-      <link>https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/education/london/</link>
+      <link>http://localhost:1313/education/london/</link>
       <pubDate>Tue, 25 Mar 2025 10:33:15 +0000</pubDate>
-      <guid>https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/education/london/</guid>
+      <guid>http://localhost:1313/education/london/</guid>
       <description></description>
     </item>
     <item>
       <title>HKUST</title>
-      <link>https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/education/hkust/</link>
+      <link>http://localhost:1313/education/hkust/</link>
       <pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate>
-      <guid>https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/education/hkust/</guid>
+      <guid>http://localhost:1313/education/hkust/</guid>
       <description></description>
     </item>
   </channel>

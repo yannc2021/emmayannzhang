@@ -1,0 +1,55 @@
+{{ define "main" }}
+  <div id="main-content" class="blog flex-grow-1">
+    <div class="container section">
+      <div class="col-content">
+        <h1 class="rad-fade-down rad-waiting rad-animate">{{ .Title }}</h1>
+        {{ .Content }}
+        
+        <div class="posts-list">
+          {{ range .Pages }}
+            <div class="row row--padded rad-animation-group rad-fade-down rad-waiting rad-animate section--border-bottom">
+              <div class="publication d-flex align-items-start">
+                <!-- Text Content -->
+                <div class="publication-item" style="flex: 1;">
+                  <!-- Title -->
+                  <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                
+                  <!-- Authors -->
+                  <p><span class="label">Authors:</span> {{ .Params.authors }}</p>
+                  
+                  <!-- Publisher -->
+                  <p><span class="journal">{{ .Params.journal }}</span></p>
+                  
+                  <!-- Abstract -->
+                  <p><span class="label">Abstract:</span> {{ .Params.abstract }}</span></p>
+                  
+                  <!-- Link as a Button -->
+                  {{ if .Params.link }}
+                    <a href="{{ .Params.link }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                      {{ if .Params.buttonText }} {{ .Params.buttonText }} {{ else }} Full paper {{ end }}
+                    </a>
+                  {{ end }}
+
+                  <button class="btn btn-secondary" onclick="generateCitation()">Cite this</button>
+
+                  <div id="citation-popup" class="citation-popup" style="display: none;">
+                    <h4>Citation</h4>
+                    <div id="citation-content"></div>
+                    <button class="btn btn-close" onclick="closeCitation()">Close</button>
+                  </div>
+                </div>
+                
+                <!-- Picture -->
+                {{ if .Params.picture }}
+                  <div class="publication-image" style="margin-left: 20px; max-width: 200px;">
+                    <img src="{{ .Params.picture }}" alt="{{ .Title }}" style="width: 100%; height: auto; border-radius: 8px;" />
+                  </div>
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}

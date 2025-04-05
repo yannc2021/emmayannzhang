@@ -9,7 +9,7 @@
         "runtimeArgs": [
           "server",
           "-D",
-          "--baseURL=https://curly-space-spork-6wjq4jwvj4fr744-1313.app.github.dev/",
+          "--baseURL=http://localhost:1313/",
           "--appendPort=false",
           "--bind=0.0.0.0"
         ],

@@ -1,5 +1,9 @@
-.experience-container {
-    max-width: var(--theme-content-width); /* Match theme's content width */
-    margin: 0 auto;
-    padding: 0 2rem;
-  }
+.publication-item span.label {
+  font-weight: bold;
+}
+
+.publication-item span.journal {
+  color: #666;
+  font-style: italic
+}   
+
