@@ -286,6 +286,7 @@ URL = "js/sticky-header.js"
 [[params.plugins.js]]
 URL = "js/library/fontfaceobserver.js"
 
+
 # SCSS Plugins
 [[params.plugins.scss]]
 URL = "scss/adritian.scss"

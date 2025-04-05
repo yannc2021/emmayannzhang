@@ -20,11 +20,10 @@ draft = false
  {{< platform-links >}}
     {{< link icon="linkedin" url="https://www.linkedin.com/in/emmayannzhang/" >}}
     {{< link icon="x-twitter" url="https://twitter.com/yannc2021" >}}
-{{< /platform-links >}}
+    {{< link icon="google-scholar" url="https://scholar.google.com/citations?user=JPjFr4YAAAAJ&hl=en" >}}
+    {{< link icon="orcid" url="https://orcid.org/0000-0002-1424-2866" >}}
 
-<div class="container">
-{{< experience-list title="Experience" >}}
-</div>
+{{< /platform-links >}}
 
 {{< projects-list
     title="My Work" >}} 

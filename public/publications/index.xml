@@ -9,13 +9,6 @@
     <lastBuildDate>Sat, 05 Apr 2025 20:17:22 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/publications/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hapticmobilemarketing2015</title>
-      <link>http://localhost:1313/publications/hapticmobilemarketing2015/</link>
-      <pubDate>Sat, 05 Apr 2025 20:17:22 +0800</pubDate>
-      <guid>http://localhost:1313/publications/hapticmobilemarketing2015/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Smellcommunication2016</title>
       <link>http://localhost:1313/publications/smellcommunication2016/</link>
       <pubDate>Sat, 05 Apr 2025 20:17:22 +0800</pubDate>
@@ -72,13 +65,6 @@
       <description></description>
     </item>
     <item>
-      <title>Electricalremotekissing2020</title>
-      <link>http://localhost:1313/publications/electricalremotekissing2020/</link>
-      <pubDate>Sat, 05 Apr 2025 20:17:15 +0800</pubDate>
-      <guid>http://localhost:1313/publications/electricalremotekissing2020/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Lovoticslovesexrobots2016</title>
       <link>http://localhost:1313/publications/lovoticslovesexrobots2016/</link>
       <pubDate>Sat, 05 Apr 2025 20:17:15 +0800</pubDate>
@@ -107,13 +93,6 @@
       <description></description>
     </item>
     <item>
-      <title>Aibattlecovid2024</title>
-      <link>http://localhost:1313/publications/aibattlecovid2024/</link>
-      <pubDate>Sat, 05 Apr 2025 20:17:11 +0800</pubDate>
-      <guid>http://localhost:1313/publications/aibattlecovid2024/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Turingtotransformers2023</title>
       <link>http://localhost:1313/publications/turingtotransformers2023/</link>
       <pubDate>Sat, 05 Apr 2025 20:17:11 +0800</pubDate>
@@ -135,13 +114,6 @@
       <description></description>
     </item>
     <item>
-      <title>Test</title>
-      <link>http://localhost:1313/publications/test/</link>
-      <pubDate>Sat, 05 Apr 2025 20:06:50 +0800</pubDate>
-      <guid>http://localhost:1313/publications/test/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>From Turing to Transformers: A Comprehensive Review and Tutorial on the Evolution and Applications of Generative Transformer Models</title>
       <link>http://localhost:1313/publications/sci2023/</link>
       <pubDate>Sat, 05 Apr 2025 18:55:03 +0800</pubDate>
@@ -154,6 +126,20 @@
       <pubDate>Sat, 05 Apr 2025 10:35:56 +0800</pubDate>
       <guid>http://localhost:1313/publications/springerbook/</guid>
       <description>&lt;h2 id=&#34;about-this-book&#34;&gt;About this book&lt;/h2&gt;&#xA;&lt;p&gt;The idea of humans falling in love with artificial beings is not a modern conception. Our relationship with artificial partners has come a long way since Pygmalion and his ivory lover. In recent years, there has been a strong upsurge of interest and discussions in the various aspects of intimate relationships between humans and artificial partners. This interest is evidenced by the increase in media coverage, TV documentaries and films on this topic, as well as the active research efforts within the academic community.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Artificial Intelligence in the Battle Against COVID-19: A Comprehensive Review</title>
+      <link>http://localhost:1313/publications/aibattlecovid2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/aibattlecovid2024/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Delivering Haptic Sensations in Mobile Marketing</title>
+      <link>http://localhost:1313/publications/hapticmobilemarketing2015/</link>
+      <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/hapticmobilemarketing2015/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
