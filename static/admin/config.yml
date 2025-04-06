@@ -84,3 +84,20 @@ collections:
     fields:
       - { label: "Client Logo", name: "params.logo.src", widget: "image" }
       - { label: "Logo Scale", name: "params.logo.scale", widget: "number", min: 0, max: 1, step: 0.1, default: 0.5 }
+
+  - name: "publications"
+    label: "Publications"
+    folder: "content/publications"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: "Button Text", name: "buttonText", widget: "string", default: "Full Text" }
+      - { label: "Picture", name: "picture", widget: "image" }
+      - { label: "Authors", name: "authors", widget: "string" }
+      - { label: "Journal", name: "journal", widget: "string" }
+      - { label: "Abstract", name: "abstract", widget: "text" }
+      - { label: "DOI", name: "doi", widget: "string" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
