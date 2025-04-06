@@ -7,3 +7,13 @@
   font-style: italic
 }   
 
+.publication-item .publication-year {
+  display: block;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.publication-item .publication-title {
+  font-size:1.5em;
+  color: #3498db;
+}

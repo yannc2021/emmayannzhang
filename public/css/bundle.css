@@ -7,7 +7,16 @@
   font-style: italic
 }   
 
-@font-face {
+.publication-item .publication-year {
+  display: block;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.publication-item .publication-title {
+  font-size:1.5em;
+  color: #3498db;
+}@font-face {
   font-family: 'adritian-icons';
   src: url('../fonts/adritian-icons.eot?5163040');
   src: url('../fonts/adritian-icons.eot?5163040#iefix') format('embedded-opentype'),

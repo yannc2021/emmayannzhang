@@ -1,6 +1,6 @@
 ---
 title: "Human-Robot Intimate Relationships"
-date: 2025-04-05T10:35:56+08:00
+date: 2019-02-21
 link: "https://link.springer.com/book/10.1007/978-3-319-94730-3"
 buttonText: "Buy book"
 picture: "/images/uploads/springer book.png"
