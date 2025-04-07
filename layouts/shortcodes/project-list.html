@@ -33,7 +33,7 @@
       >
         {{ if $is_even }}
         <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto even">
-          <h3>{{ .Params.title }}</h3>
+          <h3><a href="{{ .Permalink }}">{{ .Params.title }}</a></h3>
           <div class="lead">
             {{ .Page.Summary }}
           </div>
@@ -52,9 +52,9 @@
           {{ partial "lazypicture" (dict "src" .Params.image.src "scale" .Params.image.scale "class" "picture-works odd")}}
         </div>
         <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
-          <h3>{{ .Params.title }}</h3>
+          <h3><a href="{{ .Permalink }}">{{ .Params.title }}</a></h3>
           <div class="lead">
-            {{ .Page.Content }}
+            {{ .Page.Summary }}
           </div>
           <a href="{{ .Params.button.URL | absURL }}" class="btn btn-primary"
             >{{ .Params.button.btnText }}<i class="{{ .Params.button.icon }}"></i

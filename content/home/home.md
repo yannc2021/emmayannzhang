@@ -6,14 +6,15 @@ draft = false
 
 {{< showcase-section
     title="About Me"
-    subtitle="AI Researcher"
-    description="I am an AI researcher with expertise in both hardware and software development. My research focuses on connecting human emotions with technology through multisensory communication and emotionally intelligent AI systems. I am to integrate our sense of touch into AI agents, social robots, and wearable devices, allowing them to sense, interpret and respond to human touch interaction. I created <emph>Kissenger</emph>, the world’s first device for transmitting kisses digitally. My work has been featured in international press such as BBC, Discovery Channel, Wired, IEEE Spectrum, and The Times. I've been invited to showcase my research at top exhibitions and conferences such as the Ars Electronica Festival, VivaTech Paris, Germany Museum of Technology, and CeBIT conference, among others."
+    subtitle="AI Researcher | Developer"
+    description="I am an AI researcher with a unique blend of hardware and software skills, passionate about creating emotionally intelligent technologies that foster meaningful relationships between humans, robots, and AI. My research explores how multisensory communication, especially our sense of touch, can enhance digital interactions among humans and enrich emotional engagement with AI agents and social robots. I developed Kissenger, the world's first device to digitally transmit kisses over the Internet, pioneering new ways to convey intimacy through technology. My research has been mentioned by international press such as The Guardian, The Times, and Huffington Post, and featured in TV and radio programs including BBC World, Discovery Channel, WTOP, Channel News Asia, etc. My work has also been exhibited internationally at venues such as the Ars Electronica Festival, Germany Museum of Technology, and CeBIT conference. I'm open to collaborations and consulting on research and commercial projects involving Emotional AI, human-robot interaction, touch technologies and multisensory communication."
+
     button_icon="icon-download"
     button_text="Download my CV"
     button_url="uploads/Emma%20Yann%20Zhang_cv-2025.pdf"
     button_download="true"
     imgSrc="images/about/emma-2.jpg"
-    imgScale="0.3"
+    imgHeight="450"
  >}}
 
 {{< /showcase-section >}} 
