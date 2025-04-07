@@ -28,6 +28,22 @@ draft = false
 {{< projects-list
     title="My Work" >}} 
 
+<!-- {{< showcase-section
+    title="My book"
+    subtitle="Human-Robot Intimate Relationships"
+    description="This book provides a comprehensive collection and overview of the latest development in the field of intimate relationships between humans and artificial partners, in particular robots and virtual agents. It includes relevant research work undertaken by the authors, the latest advancements in technology and commercial products, and future predictions and insights from leading experts in the area. This book contains an in-depth discussion of the engineering, philosophical, psychological, ethical, and sociological implications of relationships with artificial companions. It also gives a glimpse of some future directions of artificial intelligence, human-computer love and sexual interaction, robotics engineering etc. It is a great resource for researchers and professionals working in these areas. The narrative style of the book also makes it an enjoyable and educational read for everyone."
+    button_icon="circle-arrow-right"
+    button_text="Get Access"
+    button_url="https://link.springer.com/book/10.1007/978-3-319-94730-3"
+    imgSrc="images/showcase/springerbook.png"
+    imgScale="0.3"
+ >}}
+
+{{< /showcase-section >}}  -->
+
+{{< showcase-book title="My Book" pageTitle="Human-Robot Intimate Relationships" >}}
+
+
 {{< contact-section
     title="Reach out" 
     contact_form_name="Your name?"

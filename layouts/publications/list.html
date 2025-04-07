@@ -43,8 +43,8 @@
                 
                 <!-- Picture -->
                 {{ if .Params.picture }}
-                  <div class="publication-image" style="margin-left: 20px; max-width: 200px;">
-                    <img src="{{ .Params.picture }}" alt="{{ .Title }}" style="width: 100%; height: auto; border-radius: 8px;" />
+                  <div class="publication-image">
+                  <img src="{{ .Params.picture }}" alt="{{ .Title }}" />
                   </div>
                 {{ end }}
               </div>

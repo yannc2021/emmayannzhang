@@ -1,0 +1,56 @@
+{{/* Used for the book section in the homepage */}}
+
+{{- $contextType := printf "%T" . -}}
+{{- $isShortcode := (eq $contextType "*hugolib.ShortcodeWithPage") -}}
+
+{{/* ---------------------------------------------------------------------------
+    SECTION TITLE
+    --------------------------------------------------------------------------- */}}
+{{- $sectionTitle := "" -}}
+{{- $pageTitle := "" -}}
+
+{{- if $isShortcode -}}
+ {{- $sectionTitle = .Get "title" -}}
+ {{- $pageTitle = .Get "pageTitle" -}}
+{{- end -}}
+
+{{/* ---------------------------------------------------------------------------
+    GET POST
+    --------------------------------------------------------------------------- */}}
+{{- $posts := where site.RegularPages "Title" $pageTitle -}}
+{{- $post := index $posts 0 -}}
+
+<section id="showcase-book" class="section section--border-bottom">
+    <div class="container">
+        <h2 class="rad-animation-group rad-fade-down">
+            {{ $sectionTitle }}
+        </h2>
+        {{if $post }}
+        <div class="row row--padded rad-animation-group rad-fade-down d-flex align-items-start">
+            <!-- Text Section -->
+            <div class="post-content">
+                <div class="row">
+                    <!-- Image Section -->
+                    <div class="col-md-4">
+                        {{ if $post.Params.picture }}
+                        <img src="{{ $post.Params.picture }}" alt="{{ $post.Title }}" class="img-fluid">
+                        {{ end }}
+                    </div>
+                    <!-- Text Section -->
+                    <div class="col-md-8">
+                        <h3><a href="{{ $post.Params.link }}" target="_blank" rel="noopener noreferrer">{{ $post.Title }}</a></h3>
+                        <p><strong>Authors:</strong> {{ $post.Params.authors }}</p>
+                        <p><strong>Abstract:</strong> {{ $post.Params.abstract }}</p>
+                        {{ if $post.Params.link }}
+                        <a href="{{ $post.Params.link }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Get access</a>
+                        {{ end }}
+                    </div>
+                </div></div>
+
+            </div>
+        </div>
+        {{ else }}
+        <p>Post not found.</p>
+        {{ end }}
+    </div>
+</section>
