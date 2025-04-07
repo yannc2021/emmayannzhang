@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <div id="main-content" class="blog flex-grow-1">
+    <div class="container section">
+      <div class="col-content">
+        <h1 class="rad-fade-down rad-waiting rad-animate">{{ .Title }}</h1>
+        {{ .Content }}
+        
+        <div class="press-list">
+          {{ range .Pages }}
+
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}

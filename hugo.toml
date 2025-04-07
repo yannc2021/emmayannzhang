@@ -117,7 +117,7 @@ URL = '/publications'
 weight = 2
 [[languages.en.menus.header]]
 name = 'Press'
-URL = '#press'
+URL = '/press'
 weight = 3
 [[languages.en.menus.header]]
 name = "Blog"
