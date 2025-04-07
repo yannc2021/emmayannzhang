@@ -10,7 +10,8 @@ draft = false
     description="I am an AI researcher with expertise in both hardware and software development. My research focuses on connecting human emotions with technology through multisensory communication and emotionally intelligent AI systems. I am to integrate our sense of touch into AI agents, social robots, and wearable devices, allowing them to sense, interpret and respond to human touch interaction. I created <emph>Kissenger</emph>, the world’s first device for transmitting kisses digitally. My work has been featured in international press such as BBC, Discovery Channel, Wired, IEEE Spectrum, and The Times. I've been invited to showcase my research at top exhibitions and conferences such as the Ars Electronica Festival, VivaTech Paris, Germany Museum of Technology, and CeBIT conference, among others."
     button_icon="icon-download"
     button_text="Download my CV"
-    button_url="https://drive.google.com/file/d/1jLCO4NxkAx353BGoCnczcunr5FrWsjLG/view?usp=sharing"
+    button_url="uploads/Emma%20Yann%20Zhang_cv-2025.pdf"
+    button_download="true"
     imgSrc="images/about/emma-2.jpg"
     imgScale="0.3"
  >}}
@@ -25,21 +26,8 @@ draft = false
 
 {{< /platform-links >}}
 
-{{< projects-list
+{{< project-list
     title="My Work" >}} 
-
-<!-- {{< showcase-section
-    title="My book"
-    subtitle="Human-Robot Intimate Relationships"
-    description="This book provides a comprehensive collection and overview of the latest development in the field of intimate relationships between humans and artificial partners, in particular robots and virtual agents. It includes relevant research work undertaken by the authors, the latest advancements in technology and commercial products, and future predictions and insights from leading experts in the area. This book contains an in-depth discussion of the engineering, philosophical, psychological, ethical, and sociological implications of relationships with artificial companions. It also gives a glimpse of some future directions of artificial intelligence, human-computer love and sexual interaction, robotics engineering etc. It is a great resource for researchers and professionals working in these areas. The narrative style of the book also makes it an enjoyable and educational read for everyone."
-    button_icon="circle-arrow-right"
-    button_text="Get Access"
-    button_url="https://link.springer.com/book/10.1007/978-3-319-94730-3"
-    imgSrc="images/showcase/springerbook.png"
-    imgScale="0.3"
- >}}
-
-{{< /showcase-section >}}  -->
 
 {{< showcase-book title="My Book" pageTitle="Human-Robot Intimate Relationships" >}}
 

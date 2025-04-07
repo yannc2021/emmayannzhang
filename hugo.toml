@@ -54,12 +54,12 @@ title = 'Emma Yann Zhang | AI Researcher'
 description = 'Personal website of Emma Yann Zhang'
 images = ['/img/og-img.png']
 sections = [
-  "showcase",
-  "education",
-  "experience",
-  "client-and-work",
+  "about",
+  "projects",
+  "publications",
+  "press",
+  "blog",
   "contact",
-  "newsletter",
 ]
 # If you want to display an image logo in the header, you can add it here
 # logo = '/img/hugo.svg'
