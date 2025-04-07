@@ -1,1 +1,33 @@
 generate_pub.sh
+
+# Hugo build output
+/public/
+/resources/_gen/
+/assets/js/bundle.js
+
+# Hugo cache
+.hugo_build.lock
+hugo_stats.json
+
+# Node.js dependencies (if using npm/yarn for assets)
+node_modules/
+/package-lock.json
+/yarn.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.tmp
+*.log
+
+# Git-specific files
+*.orig
