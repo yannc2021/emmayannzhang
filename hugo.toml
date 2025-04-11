@@ -55,7 +55,7 @@ description = 'Personal website of Emma Yann Zhang'
 images = ['/img/og-img.png']
 sections = [
   "about",
-  "projects",
+  "work",
   "publications",
   "press",
   "blog",
@@ -108,8 +108,8 @@ weight = 0
 
 [languages.en.menus]
 [[languages.en.menus.header]]
-name = 'Projects'
-URL = '#projects'
+name = 'Work'
+URL = '#work-section'
 weight = 1
 [[languages.en.menus.header]]
 name = 'Publications'
