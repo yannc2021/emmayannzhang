@@ -18,6 +18,4 @@ params:
 ## The content is used for the description of the project
 ---
 
-At Tamo Robotics, we believe that humans will interact with robots in a more meaningful and emotional
-way in the future. Robots will be able to provide emotional comfort and support and
-help people reconnect with their Happy Place.
+At Tamo Robotics, we believe that humans will interact with robots in a more meaningful and emotional way in the future. Robots will be able to provide emotional comfort and support and help people reconnect with their inner peace.

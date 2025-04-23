@@ -52,7 +52,7 @@ target = "assets/css/bootstrap-print.css"
 [params]
 title = 'Emma Yann Zhang | AI Researcher'
 description = 'Personal website of Emma Yann Zhang'
-images = ['/img/og-img.png']
+images = ['/images/uploads/og-img.png']
 sections = [
   "about",
   "work",

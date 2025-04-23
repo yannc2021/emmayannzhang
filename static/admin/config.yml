@@ -101,3 +101,16 @@ collections:
       - { label: "Abstract", name: "abstract", widget: "text" }
       - { label: "DOI", name: "doi", widget: "string" }
       - { label: "Draft", name: "draft", widget: "boolean", default: false }
+
+  - name: "press"
+    label: "Press"
+    folder: "content/press"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: "Picture", name: "picture", widget: "image" }
+      - { label: "Subtitle (source)", name: "source", widget: "string" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
