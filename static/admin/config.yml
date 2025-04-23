@@ -14,7 +14,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Content", name: "body", widget: "markdown" }
 
   - name: "projects"
     label: "Projects"
@@ -46,7 +46,7 @@ collections:
               - { label: "Image Source", name: "src", widget: "image", required: false }
               - { label: "Image Scale", name: "scale", widget: "number", min: 0, max: 1, step: 0.1, value_type: "float", default: 0.5, required: false }
 
-      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Content", name: "body", widget: "markdown", required: false }
 
   - name: "education"
     label: "Education"
@@ -74,7 +74,7 @@ collections:
       - { label: "Company", name: "company", widget: "string" , required: false }
       - { label: "Location", name: "location", widget: "string" , required: false }
       - { label: "Duration", name: "duration", widget: "string" , required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Content", name: "body", widget: "markdown", required: false }
 
   - name: "client-work"
     label: "Client Work"
@@ -114,3 +114,4 @@ collections:
       - { label: "Picture", name: "picture", widget: "image" }
       - { label: "Subtitle (source)", name: "source", widget: "string" }
       - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Content", name: "body", widget: "markdown", required: false }
