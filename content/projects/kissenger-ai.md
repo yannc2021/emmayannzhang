@@ -1,6 +1,6 @@
 ---
 title: "Kissenger AI "
-date: 2025-04-24T11:30:00.000Z
+date: 2025-04-24T10:51:00.000Z
 draft: false
 link: kissengerai.com
 params:
