@@ -3,7 +3,7 @@ title: "Love and Sex with Robots"
 source: "News article on Huffington Post"
 link: "http://www.huffingtonpost.com/julie-wosk/love-and-sex-with-robots_b_13786384.html"
 picture: "/images/uploads/Huffington post thumbnail.webp"
-date: 2025-04-23T13:15:27+08:00
+date: 2025-04-23T07:57:00.000Z
 draft: false
 ---
 

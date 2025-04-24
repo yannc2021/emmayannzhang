@@ -2,7 +2,7 @@
 title: "Robotic Kiss Transmitter Lets You Smooch a Loved One from Afar"
 source: "IEEE Spectrum"
 link: "http://spectrum.ieee.org/the-human-os/biomedical/devices/robotic-kiss-transmitter-lets-you-smooch-a-loved-one-from-afar"
-date: 2025-04-23T16:15:27+08:00
+date: 2025-04-22T10:30:00.000Z
 picture: "/images/uploads/ieee-spectrum-thumbnail.webp"
 draft: false
 ---

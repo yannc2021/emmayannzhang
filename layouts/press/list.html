@@ -9,33 +9,35 @@
       </div>
 
       <div class="content-list">
-        {{ range .Pages }}
-        <div class="row row--padded rad-animation-group rad-fade-down rad-waiting rad-animate section--border-bottom">
-          
-          <!-- Optional Image -->
-          {{ if .Params.picture }}
-          <div class="col-md-4">
-            <div class="item-image">
-                <img src="{{ .Params.picture }}" alt="{{ .Title }}" class="img-fluid rounded shadow-sm" />
+        {{ range .Pages.ByDate.Reverse }}
+          {{ if not .Draft}}
+          <div class="row row--padded rad-animation-group rad-fade-down rad-waiting rad-animate section--border-bottom">
+            
+            <!-- Optional Image -->
+            {{ if .Params.picture }}
+            <div class="col-md-4">
+              <div class="item-image">
+                  <img src="{{ .Params.picture }}" alt="{{ .Title }}" class="img-fluid rounded shadow-sm" />
+              </div>
+            </div>
+            {{ end }}
+
+            <!-- Main Content -->
+            <div class="item-details {{ if .Params.picture }}col-md-8{{ else }}col-12{{ end }}">
+
+              <!-- Title -->
+              <h3 class="item-title">
+                <a href="{{ .Permalink }}" target="_blank" rel="noopener noreferrer">{{ .Title }}</a>
+              </h3>
+
+              <!-- Optional Source/Journal -->
+              {{ with .Params.source }}
+                <p class="item-source">{{ . }}</p>
+              {{ end }}
+
             </div>
           </div>
           {{ end }}
-
-          <!-- Main Content -->
-          <div class="item-details {{ if .Params.picture }}col-md-8{{ else }}col-12{{ end }}">
-
-            <!-- Title -->
-            <h3 class="item-title">
-              <a href="{{ .Permalink }}" target="_blank" rel="noopener noreferrer">{{ .Title }}</a>
-            </h3>
-
-            <!-- Optional Source/Journal -->
-            {{ with .Params.source }}
-              <p class="item-source">{{ . }}</p>
-            {{ end }}
-
-          </div>
-        </div>
         {{ end }}
       </div>
     </div>
