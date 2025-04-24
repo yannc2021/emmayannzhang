@@ -32,6 +32,11 @@ draft = false
 
 {{< showcase-book title="My Book" pageTitle="Human-Robot Intimate Relationships" >}}
 
+<div style="text-align: center;">
+    <h1>Subscribe to my newsletter on Substack</h1>
+    <iframe src="https://rejectandpublish.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+</div>
+
 {{< contact-section
     title="Reach out" 
     contact_form_name="Your name?"
