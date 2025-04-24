@@ -1,14 +1,15 @@
 ---
-title: "Kissenger AI "
-date: 2025-04-24T10:51:00.000Z
+title: "Kissenger AI"
+date: 2025-02-25T09:53:42+08:00
 draft: false
-link: kissengerai.com
+link: https://kissengerai.com
 params:
   image:
     scale: 0.5
-    src: /images/uploads/og-image.webp
+    src:  images/works/kissengerai-project.webp
   button:
     btnText: Website
-    URL: kissengerai.com
+    URL: https://kissengerai.com
 ---
+
 Kissenger AI is an AI companion app that lets users chat, bond, and share kisses with real touch sensations. This project is the beginning of a bigger vision: to bring our sense of touch into AI systems that can sense, understand and respond to touch. Future integrations with AI-driven hardware will redefine the way we interact with emotional AI and robots.

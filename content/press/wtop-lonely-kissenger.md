@@ -6,7 +6,7 @@ picture: /images/uploads/featured-wtop.webp
 source: WTOP News
 draft: false
 ---
-**WTOP News**, Washington’s leading radio and online news outlet, covered Kissenger in an article titled *“Lonely? Kissenger simulates a long-distance smooch over the internet.”*
+**WTOP News**, Washington’s leading radio and online news outlet, covered Kissenger in an article titled “Lonely? Kissenger simulates a long-distance smooch over the internet.”
 
 The article discusses how the device works, the research behind it, and its potential to bring couples closer across distances. It also features expert commentary on the rise of emotional technology.
 

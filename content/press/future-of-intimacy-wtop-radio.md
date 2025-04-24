@@ -1,11 +1,12 @@
 ---
-title: The Future of Long-Distance Intimacy | Emma Yann Zhang Exclusive Interview on WTOP Radio
-date: 2025-04-24T10:30:00.000Z
+title: The Future of Long-Distance Intimacy
+source: Exclusive Interview on WTOP Radio
 link: https://www.youtube.com/watch?v=MCJpdP-vYGg
 picture: /images/uploads/wtop-radio-thumbnail.webp
-source: Interview on WTOP Radio
+date: 2025-04-24T12:15:27+08:00
 draft: false
 ---
+
 In these clips from my exclusive interview on WTOP Radio, I share how Kissenger lets people send virtual kisses, bringing physical intimacy into everyday digital communication. I also reveal our next big idea for Kissenger: turning it into a robotic head you can actually kiss. One day you might kiss a robot — if you want to.
 
 🎧 WTOP is Washington D.C.'s premier all-news radio station, known for its in-depth coverage of tech, science, and innovation.

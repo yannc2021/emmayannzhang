@@ -13,8 +13,10 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Date", name: "date", widget: "datetime", default: "{{now}}"}
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
       - { label: "Content", name: "body", widget: "markdown" }
+      
 
   - name: "projects"
     label: "Projects"
@@ -23,8 +25,8 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Draft", name: "draft", widget: "boolean" }
+      - { label: "Date", name: "date", widget: "datetime", default: "{{now}}"}
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
       - { label: "Link", name: "link", widget: "string", required: false }
 
       - label: "Params"
@@ -55,7 +57,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Date", name: "date", widget: "datetime", default: "{{now}}"}
       - { label: "Draft", name: "draft", widget: "boolean" }
       - { label: "University", name: "university", widget: "string", required: false  }
       - { label: "Degree", name: "degree", widget: "string", required: false  }
@@ -68,8 +70,8 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string", required: false  }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Draft", name: "draft", widget: "boolean" }
+      - { label: "Date", name: "date", widget: "datetime", default: "{{now}}"}
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
       - { label: "Job Title", name: "jobTitle", widget: "string", required: false  }
       - { label: "Company", name: "company", widget: "string" , required: false }
       - { label: "Location", name: "location", widget: "string" , required: false }
@@ -92,7 +94,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Date", name: "date", widget: "datetime", default: "{{now}}"}
       - { label: "Link", name: "link", widget: "string" }
       - { label: "Button Text", name: "buttonText", widget: "string", default: "Full Text" }
       - { label: "Picture", name: "picture", widget: "image" }
@@ -109,7 +111,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Date", name: "date", widget: "datetime", default: "{{now}}"}
       - { label: "Link", name: "link", widget: "string", required: false}
       - { label: "Picture", name: "picture", widget: "image" }
       - { label: "Subtitle (source)", name: "source", widget: "string" }
