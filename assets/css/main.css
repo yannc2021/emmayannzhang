@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-outfit bg-light text-dark;
+    }
+}
+
+@layer components {
+    .gradient-text {
+        @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent;
+    }
+    
+    .blob {
+        @apply absolute rounded-full filter blur-[60px] z-0 opacity-60;
+    }
+    
+    .blob-1 {
+        @apply w-[400px] h-[400px] bg-primary -top-[100px] -right-[100px];
+    }
+    
+    .blob-2 {
+        @apply w-[350px] h-[350px] bg-secondary -bottom-[50px] -left-[100px];
+    }
+    
+    .blob-3 {
+        @apply w-[200px] h-[200px] bg-accent top-[40%] right-[20%];
+    }
+    
+    .nav-link {
+        @apply relative;
+    }
+    
+    .nav-link::after {
+        content: '';
+        @apply absolute w-0 h-0.5 -bottom-0.5 left-0 bg-gradient-to-r from-primary to-secondary transition-all duration-300;
+    }
+    
+    .nav-link:hover::after {
+        @apply w-full;
+    }
+    
+    .card {
+        @apply transition-all duration-300;
+    }
+    
+    .card:hover {
+        @apply -translate-y-1 shadow-xl;
+    }
+    
+    .btn-primary {
+        @apply bg-gradient-to-r from-primary to-secondary transition-all duration-300;
+    }
+    
+    .btn-primary:hover {
+        @apply -translate-y-0.5 shadow-lg;
+    }
+    
+    .btn-outline {
+        @apply bg-transparent border-2 border-secondary text-secondary transition-all duration-300;
+    }
+    
+    .btn-outline:hover {
+        @apply bg-gradient-to-r from-primary to-secondary text-white border-transparent;
+    }
+    
+    .touch-circle {
+        @apply w-10 h-10 rounded-full absolute bg-[radial-gradient(circle,rgba(214,107,160,0.2)_0%,rgba(214,107,160,0)_70%)] -translate-x-1/2 -translate-y-1/2 pointer-events-none z-10 opacity-0 transition-opacity duration-500;
+    }
+} 

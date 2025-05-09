@@ -1,0 +1,19 @@
+logo_image: /uploads/branding/name-logo.svg
+logo_subtitle: 
+dark_header: false
+mobile_view_width: 1100
+menuitems:
+  - title: Work
+    link: /work/
+  - title: Publications
+    link: /publications/
+  - title: Press
+    link: /press/
+  - title: Blog
+    link: /blog/
+
+cta:
+  active: true
+  title: Contact
+  link: /contact/
+preheader: open Mon-Fri from 9-5
