@@ -5,16 +5,16 @@ draft = false
 +++
 
 {{< showcase-section
-    title="About Me"
-    subtitle="AI Researcher | Developer"
-    description="I am an AI researcher with a unique blend of hardware and software skills, passionate about creating emotionally intelligent technologies that foster meaningful relationships between humans, robots, and AI. My research explores how multisensory communication, especially our sense of touch, can enhance digital interactions among humans and enrich emotional engagement with AI agents and social robots. I developed Kissenger, the world's first device to digitally transmit kisses over the Internet, pioneering new ways to convey intimacy through technology."
+    title="Hi, I'm Emma"
+    subtitle="Researcher | Founder"
+    description="I am a researcher in Human-AI and Human-Robot Interactions, creating emotional technologies that foster meaningful relationships between humans, robots, and AI. My work explores how multisensory communication, especially our sense of touch, can enhance digital interactions among humans and enrich emotional engagement with AI agents and social robots. I developed Kissenger, the world's first device to digitally transmit kisses over the Internet."
 
     button_icon="icon-download"
     button_text="Download my CV"
     button_url="uploads/Emma%20Yann%20Zhang_cv-2025.pdf"
     button_download="true"
     imgSrc="images/about/emma-2.jpg"
-    imgHeight="450"
+    imgScale="0.2"
  >}}
 
 {{< /showcase-section >}} 
