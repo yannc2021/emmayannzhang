@@ -7,16 +7,29 @@ menuitems:
   - title: Privacy policy
     link:  /privacy-policy/
 socials:
+  - title: LinkedIn
+    link: https://www.linkedin.com/in/emmayannzhang/
+    logo_image: /img/linkedin.svg  
+  - title: X
+    link: https://twitter.com/yannc2021
+    logo_image: /img/X.svg
+  - title: Youtube
+    link: https://www.youtube.com/emmayannzhang
+    logo_image: /img/youtube.svg
+  - title: Substack
+    link: https://rejectandpublish.substack.com/
+    logo_image: /img/substack.svg
+  - title: Google Scholar
+    link: https://scholar.google.com/citations?user=JPjFr4YAAAAJ&hl=en
+    logo_image: /img/google-scholar.svg
+  - title: ORCID
+    link: https://orcid.org/0000-0002-1424-2866
+    logo_image: /img/orcid.svg
   - title: Facebook
-    link: https://facebook.com
-    logo_image: /img/facebook.svg
-  - title: Twitter
-    link: https://twitter.com
-    logo_image: /img/twitter.svg      
-  - title: Mastodon
-    link: https://joinmastodon.org
-    logo_image: /img/mastodon.svg      
+    link: https://facebook.com/yannc2021
+    logo_image: /img/facebook.svg  
   - title: Instagram
-    link: https://instagram.com
+    link: https://instagram.com/yannc2021
     logo_image: /img/instagram.svg
+
 footer_text: This theme is open source. More info on [Github](https://github.com/jhvanderschee/hugobricks)!

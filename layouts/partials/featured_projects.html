@@ -1,13 +1,48 @@
-<section class="py-16 bg-gradient-to-b from-white to-pink-50">
-  <div class="container mx-auto px-4">
-    <h2 class="text-3xl font-bold text-center mb-2">Featured Projects</h2>
-    <p class="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
-      Exploring the boundaries of emotional AI and touch technology through innovative research and practical applications.
-    </p>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      {{ partial "project_card.html" (dict "icon" "/icons/haptic.svg" "title" "Haptic Feedback System" "description" "A revolutionary touch interface that translates digital emotions into physical sensations." "link" "/projects/haptic-feedback") }}
-      {{ partial "project_card.html" (dict "icon" "/icons/ai.svg" "title" "Emotional AI Framework" "description" "An open-source toolkit for developers to integrate emotional intelligence into applications." "link" "/projects/emotional-ai") }}
-      {{ partial "project_card.html" (dict "icon" "/icons/spaces.svg" "title" "Empathetic Spaces" "description" "Smart environments that adapt to emotional states and enhance wellbeing through touch." "link" "/projects/empathetic-spaces") }}
-    </div>
+{{- $inner := . -}}
+{{- if or (eq $inner "") (eq $inner nil) -}}
+    {{- $inner = "Empty brick found. Consider creating a 'content/bricks/image.md' file." -}}
+    {{- with page.Site.GetPage "bricks/image.md" -}}
+        {{- $inner = .RawContent -}}
+    {{- end -}}
+{{- end -}}
+
+{{ $inner = markdownify $inner }}
+
+{{- $posts := where (where site.RegularPages "Section" "projects") ".Params.featured" true -}}
+
+
+<section class="featured-projects">
+  {{ if $inner }}
+  <div class="container small">
+    <div class="featured-projects-text">{{- markdownify $inner -}}</div>
+  </div>
+  {{ end }}
+
+  <div class="container">
+    <ul class="contentitems grid posts" data-pagesize="{{ page.Site.Data.settings.page_size }}">
+      {{ range $index,$post := $posts }}
+          <li class="item{{ range .Params.tags }} tag_{{ . }}{{ end }}">
+            {{- if .Params.image -}}
+                {{- $postimage := .Params.image -}}
+                {{- if (resources.GetMatch $postimage) -}}
+                    {{- $postimage = ((resources.GetMatch $postimage).Fill `800x400 jpg Smart q50`).RelPermalink -}}
+                {{- end -}}
+                <a href="{{ .RelPermalink }}">
+                  <div class="img">
+                    <img src="{{ $postimage }}" alt="{{ .Title }}" style="cursor: pointer;" onclick="document.location.href='{{ .RelPermalink }}';" />
+                  </div>
+                </a>
+            {{- end -}}
+            <h3>{{ .Title | safeHTML }}</h3>
+
+            <div class="summary">
+                <p>{{ .Params.description | safeHTML }}</p>
+                <p><a href="{{ .RelPermalink }}" class="button ghost smaller">{{ i18n "Learn more" }}</a></p>
+            </div>
+          </li>
+      {{ end }}
+      <li class="placeholder"></li>
+      <li class="placeholder"></li>
+  </ul>
   </div>
 </section> 

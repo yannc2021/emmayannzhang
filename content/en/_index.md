@@ -2,7 +2,7 @@
 title: Home
 ---
 
-{{< brick_hero >}}
+{{< hero >}}
 
 # I'm a Founder, Researcher
 
@@ -12,117 +12,33 @@ My research focuses on human-AI and human-robot interactions, affective computin
 
 {{< button "Start Here" "/about/" >}}
 
-{{< /brick_hero >}}
+{{< socialbuttons >}}
+
+{{< /hero >}}
+
+{{< featured_projects >}}
+# Featured Work
+
+A list of my projects on remote touch technology, social robotics and human-AI relationships.
+
+{{< /featured_projects >}}
+
+{{< brick_image2 >}}
+
+## Human-robot Intimate Relationships
+
+A comprehensive exploration of the emotional, social, and technological dimensions of human-robot intimate relationships.
+
+{{< button "View on Springer" "https://link.springer.com/book/10.1007/978-3-319-94730-3" >}}
+
+![](/uploads/publications/springer%20book.png)
+
+{{< /brick_image2 >}}
+
+{{< brick_cta >}}
+
+  ## Subscribe to my newsletter on Substack  
+  <iframe src="https://rejectandpublish.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 
 
-{{< brick_reviews >}}{{< /brick_reviews >}}
-
-{{< brick_features >}}
-
-## The Ultimate Hugo theme
-
-Hugobricks covers all components you would like to have at hand. It is a power engine for your web oriented projects. It has excellent performance in all categories.
-
----
-
-![](/img/icons/material-symbols/200/rounded/auto_awesome_mosaic.svg)
-### Covers all components
-
-We aim to provide the following bricks: intro, title, image, cta, contact, team, testimonials, about, pricing, products, product, usps, stats, gallery, quote, faqs, brands, video, blogs, post, related.
-
----
-
-![](/img/icons/material-symbols/200/rounded/performance_max.svg)
-### 99+ Google Lighthouse score
-
-Lightning fast website. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed.
-
----
-
-![](/img/icons/material-symbols/200/rounded/design_services.svg)
-### Themeable through CSS variables
-
-Easily themeable. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed.
-
----
-
-![](/img/icons/material-symbols/200/rounded/devices.svg)
-### Fully responsive on all devices
-
-Works on every screen. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed.
-
----
-
-![](/img/icons/material-symbols/200/rounded/timer.svg)
-### Super fast builds and deploys
-
-Extremely fast. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed.
-
----
-
-![](/img/icons/material-symbols/200/rounded/auto_fix.svg)
-### 10+ pre-build pages
-
-Start with the end result. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed.
-
-{{< /brick_features >}}
-{{< brick_prices >}}
-
-## Our friendly pricing
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed.
-
----
-
-**budget**
-### Open-source
-
-Full-featured theme/page builder to create super fast & amazing website
-
-### _$_**0**/month
-
-- Hugobricks theme/code
-- All available bricks
-- Regular updates
-- Bug fixes & security patches
-
-[Get started](/get-started/)
-
----
-
-**most popular**
-
-### Hosted
-
-Everything in one toolkit – We host your website on our top-notch infrastructure.
-
-### _$_**25**/month
-
-- Hugobricks theme/code
-- All available bricks
-- Regular updates
-- Bug fixes & security patches
-- Form handling + notifications
-- CMS system for editors
-
-[Yes, pick me!](/get-started/)
-
----
-
-**everything**
-
-### Enterprise
-
-Get exceptional value and cost savings with our complete products suite.
-
-### _$_**75**/month
-
-- All other features plus:
-- High priority support 
-- Theme adjustments
-- Custom bricks (on request)
-
-[Contact us](/get-started/)
-
-{{< /brick_prices >}}
-{{< brick_cta >}}{{< /brick_cta >}}
+{{< /brick_cta >}}

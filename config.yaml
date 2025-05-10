@@ -27,12 +27,12 @@ languages:
     permalinks:
       page:
         posts: /blog/:slug
-        services: /services/:slug
-        products: /webshop/:slug
+        projects: /work/:slug
+        publications: /publications/:slug
       section:
         posts: /blog/
-        services: /services/
-        products: /webshop/
+        projects: /work/
+        publications: /publications/
   # cn:
   #   languageName: 中文
   #   contentDir: content/cn

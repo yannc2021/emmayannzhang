@@ -52,8 +52,8 @@ img {filter: grayscale(0);}
 /*------------------------ CSS overrides below ------------------------*/
 
 /*------------------------*/
-/* brick hero
-------------*/
+/* hero section
+------------ */
 
 section.hero + section.hero.alt {margin-top: 0!important;}
 section.hero.alt {background: var(--light); border-top: 0.1rem solid var(--light); border-bottom: 0.1rem solid var(--light);}
@@ -66,3 +66,37 @@ section.hero .twocols {row-gap: 2.5rem;}
 @media (max-width: 600px) {
     section.hero .twocols .image {text-align: left;}
 }
+
+section.hero ul.buttons.social {justify-content: flex-start;}
+
+/*------------------------*/
+/* Featured Projects
+------------ */
+
+.featured-projects-text {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+ul.buttons.social {gap: 0.25rem !important; display: flex; justify-content: center; padding: 0;}
+ul.buttons.social li {margin: 0 !important;}
+
+section.image.alt .twocols .image img {
+  max-width: 250px; width: 100%; height: auto;
+  border-radius: 1rem;
+}
+
+section.cta .container, section.cta .container > div, section.cta .container > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+section.cta iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
