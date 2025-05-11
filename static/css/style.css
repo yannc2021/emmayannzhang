@@ -141,3 +141,13 @@ section.bgimage .overlay {background: rgba(0,0,0,0.8) !important;}
   font-style: italic;
 }
 
+/* Project single page */
+section.project .container h1 {
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+
+section.project .container .featuredimage {
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+}

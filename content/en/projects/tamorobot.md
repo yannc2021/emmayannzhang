@@ -1,7 +1,7 @@
 ---
 title: "Tamo Robot"
 description: A social robot for emotional companionship and support, designed for kids.
-date: 2023-01-03
+date: 2021-01-03
 featured: true
 draft: false
 image: "/uploads/projects/tamorobot.webp"
