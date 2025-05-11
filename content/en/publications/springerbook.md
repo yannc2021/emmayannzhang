@@ -2,7 +2,7 @@
 title: "Human-Robot Intimate Relationships"
 date: 2019-02-21
 link: "https://link.springer.com/book/10.1007/978-3-319-94730-3"
-buttonText: "Buy book"
+publication_type: book and chapters
 picture: "/images/uploads/springer book.png"
 authors: "Adrian David Cheok, Emma Yann Zhang"
 journal: "Springer Nature, Human-Computer Interaction Series"

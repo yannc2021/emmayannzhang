@@ -2,7 +2,7 @@
 title: Lonely? Kissenger simulates a long-distance smooch over the internet
 date: 2025-04-20T00:00:00.000Z
 link: https://wtop.com/news/2017/01/lonely-kissenger-simulates-long-distance-smooch-internet/
-picture: /images/uploads/featured-wtop.webp
+image: uploads/press/featured-wtop.webp
 source: WTOP News
 draft: false
 ---

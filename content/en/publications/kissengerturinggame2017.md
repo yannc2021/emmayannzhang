@@ -2,7 +2,7 @@
 title: "Exploring the Role of Robotic Kissing 'Kissenger' in Digital Communication Through Alan Turing's Imitation Game"
 date: 2017-12-18
 link: "https://ieeexplore.ieee.org/abstract/document/8216484/"
-buttonText: ""
+publication_type: original article
 picture: ""
 authors: "Emma Yann Zhang; Adrian David Cheok; Sasa Arsovski; Idris Oladele Muniru"
 journal: "Industrial Electronics Society, IECON 2017-43rd Annual Conference of the IEEE (pp. 2870-2875). IEEE"

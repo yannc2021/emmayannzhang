@@ -18,6 +18,11 @@ markup:
         superscript:
           enable: true
 
+taxonomies:
+  tag: tags
+  category: categories
+  publication_type: publication_type
+  
 languages:
   en:
     languageName: English
@@ -29,10 +34,12 @@ languages:
         posts: /blog/:slug
         projects: /work/:slug
         publications: /publications/:slug
+        press: /press/:slug
       section:
         posts: /blog/
         projects: /work/
         publications: /publications/
+        press: /press/
   # cn:
   #   languageName: 中文
   #   contentDir: content/cn

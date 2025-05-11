@@ -2,12 +2,12 @@
 title: "Kissing over the internet"
 source: "Radio interview on BBC World Service"
 link: "http://www.bbc.co.uk/programmes/p04m8sjn"
-picture: "/images/uploads/bbcworldservice-thumbnail.webp"
+image: "uploads/press/bbcworldservice-thumbnail.webp"
 date: 2025-04-23T12:15:27+08:00
 draft: false
 ---
 {{< figure 
-src="/images/uploads/bbcworldservice-thumbnail.webp" 
+src="uploads/press/bbcworldservice-thumbnail.webp" 
 alt="BBC World Service Thumbnail" 
 caption="Source:[bbc.co.uk](http://www.bbc.co.uk/programmes/p04m8sjn)" width="50%" >}}
 

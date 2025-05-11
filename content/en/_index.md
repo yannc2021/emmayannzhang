@@ -8,7 +8,7 @@ title: Home
 
 My research focuses on human-AI and human-robot interactions, affective computing, and touch technology. I create emotional technologies that foster meaningful relationships between humans, robots, and AI. My work explores how our sense of touch can enhance digital interactions among humans and enrich emotional engagement with AI agents and social robots. I developed Kissenger, the world's first mobile device to transmit digital kissing sensations over the Internet.
 
-![](/uploads/home/emma-2.jpg)
+![](/uploads/home/emma.jpg)
 
 {{< button "Start Here" "/about/" >}}
 

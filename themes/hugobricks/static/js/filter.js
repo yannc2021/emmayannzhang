@@ -24,9 +24,7 @@ function itemsLeft(tag) {
     }
 }
 
-const pagesize = parseInt(document.querySelector('.contentitems').dataset.pagesize);
 var multiselecttags_update = function(selectelement, selectEl, pillsEl) {
-
     selectEl.innerHTML = '<option>'+selectelement.title+'</option>';
     for (var i=0; i<selectelement.options.length;i++) {
         const j = i;
@@ -147,21 +145,26 @@ function hideAllPosts() {
 }
 function loadMorePosts() {
     var itemlist = document.querySelector('.contentitems');
+    if (!itemlist || !itemlist.dataset.pagesize) return;
+    var pagesize = parseInt(itemlist.dataset.pagesize);
     var validitems = itemlist.querySelectorAll('li:not(.hidden)');
     var i = 0;
     validitems.forEach(function(item) {
         var style = window.getComputedStyle(item);
         if(style.display == 'none') {
             if(i<pagesize) {
-                item.querySelector('img').src = item.querySelector('img').dataset.src;
+                if(item.querySelector('img') && item.querySelector('img').dataset && item.querySelector('img').dataset.src) {
+                    item.querySelector('img').src = item.querySelector('img').dataset.src;
+                }
                 item.style.display = 'block';
             }
             i++;
         }
     });
+    var loadMoreBtn = document.getElementById('loadmoreposts');
     if(i>pagesize) {
-        document.getElementById('loadmoreposts').style.display = 'inline-block';
+        if(loadMoreBtn) loadMoreBtn.style.display = 'inline-block';
     } else {
-        document.getElementById('loadmoreposts').style.display = 'none';
+        if(loadMoreBtn) loadMoreBtn.style.display = 'none';
     }
 }

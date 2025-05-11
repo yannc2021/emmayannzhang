@@ -1,0 +1,48 @@
+{{- $inner := . -}}
+{{- if or (eq $inner "") (eq $inner nil) -}}
+    {{- with page.Site.GetPage "bricks/publications.md" -}}
+        {{- $inner = .RawContent -}}
+    {{- end -}}
+{{- end -}}
+{{- $posts := where page.Site.RegularPages "Section" "publications" -}}
+
+
+<section class="publications posts">
+
+  <div class="container">
+    {{ if $inner }}
+    <div class="container small">
+      {{- markdownify $inner -}}
+    </div>
+    {{ end }}
+    <div class="container">
+      <!-- <div class="filter">
+        <select id="filter" class="multiselecttags numbers_{{ site.Data.settings.filter_has_numbers }}" multiple autocomplete="off" title="Filter publication type">
+            <option value="" selected>All publication types</option>
+            {{ range $name, $taxonomy := site.Taxonomies.publication_type }}
+                <option value="{{ $name }}">{{ $name }}</option>
+            {{ end }}
+        </select>
+      </div> -->
+      <ul class="contentitems publications-list" data-pagesize="{{ site.Data.settings.page_size }}">
+        {{ range $posts }}
+        <li class="item publication-item{{ with .Params.publication_type }} tag_{{ . | urlize }}{{ end }}">
+          <div class="pub-details">
+            <h3><a href="{{ .Params.link }}" target="_blank">{{ .Title }}</a></h3>
+            {{ if .Params.authors }}<p>{{ .Params.authors }}</p>{{ end }}
+            <div class="pub-meta">
+              {{ if .Date }}{{ .Date.Format "2006" }}{{ end }}
+              {{ with .Params.journal }}<span> | {{ . }}</span>{{ end }}
+            </div>
+            {{ if .Params.abstract }}<p class="pub-abstract">{{ .Params.abstract }}</p>{{ end }}
+            <div class="pub-buttons">
+              {{ if .Params.link }}<a href="{{ .Params.link }}" class="button ghost smaller" target="_blank">{{ if .Params.buttonText }}{{ .Params.buttonText }}{{ else }}Full text{{ end }}</a>{{ end }}
+            </div>
+          </div>
+        </li>
+        {{ end }}
+      </ul>
+      <a id="loadmoreposts" style="display:none"></a>
+      
+  </div>
+</section> 

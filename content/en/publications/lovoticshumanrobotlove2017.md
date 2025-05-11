@@ -1,8 +1,8 @@
 ---
-title: "Human-robot love and sex relationships."
+title: "Lovotics: Human-Robot Love and Sex Relationships."
 date: 2017-10-19
 link: "https://academic.oup.com/book/2320"
-buttonText: "Get the book"
+publication_type: book and chapters
 picture: "/images/uploads/Robot-Ethics-2-0-From-Autonomous-Cars-to-Artificial-Intelligence-Hardcover.jpg"
 authors: "Adrian David Cheok, Kasun Karunanayaka, Emma Yann Zhang"
 journal: "Robot Ethics: From Autonomous Cars to Artificial Intelligence,(Eds P Lin, K Abney, R Jenkins), 193-220. Oxford University Press."

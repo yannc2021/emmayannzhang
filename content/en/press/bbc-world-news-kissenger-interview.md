@@ -2,7 +2,7 @@
 title: 'Emma Yann Zhang & Adrian David Cheok Introduce Kissenger on BBC World News'
 date: 2025-04-23T12:15:27+08:00
 link: ""
-picture: "/images/uploads/BBC-World-News-thumbnail.webp"
+image: "uploads/press/BBC-World-News-thumbnail.webp"
 source: "Live Interview on BBC World News"
 draft: false
 ---

@@ -2,7 +2,7 @@
 title: The Future of Long-Distance Intimacy
 source: Exclusive Interview on WTOP Radio
 link: https://www.youtube.com/watch?v=MCJpdP-vYGg
-picture: /images/uploads/wtop-radio-thumbnail.webp
+image: /uploads/press/wtop-radio-thumbnail.webp
 date: 2025-04-24T12:15:27+08:00
 draft: false
 ---

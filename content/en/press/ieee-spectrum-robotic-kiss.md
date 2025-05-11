@@ -3,7 +3,7 @@ title: "Robotic Kiss Transmitter Lets You Smooch a Loved One from Afar"
 source: "IEEE Spectrum"
 link: "http://spectrum.ieee.org/the-human-os/biomedical/devices/robotic-kiss-transmitter-lets-you-smooch-a-loved-one-from-afar"
 date: 2025-04-22T10:30:00.000Z
-picture: "/images/uploads/ieee-spectrum-thumbnail.webp"
+image: "uploads/press/ieee-spectrum-thumbnail.webp"
 draft: false
 ---
 
@@ -16,20 +16,20 @@ My work is a mobile device allows loved ones to share a kiss even when miles apa
 
 <p>&nbsp;</p>
 
-{{< figure src="/images/uploads/IEEE Spectrum-Kissenger_page-0001.webp" alt="Kissenger featured in IEEE Spectrum Magazine" 
+{{< figure src="uploads/press/IEEE Spectrum-Kissenger_page-0001.webp" alt="Kissenger featured in IEEE Spectrum Magazine" 
 width="30%"
-link="/images/uploads/IEEE Spectrum-Kissenger_page-0001.webp"
+link="uploads/press/IEEE Spectrum-Kissenger_page-0001.webp"
 target="_blank"
 >}}
-{{< figure src="/images/uploads/IEEE Spectrum-Kissenger_page-0002.webp" alt="Kissenger featured in IEEE Spectrum Magazine" 
+{{< figure src="uploads/press/IEEE Spectrum-Kissenger_page-0002.webp" alt="Kissenger featured in IEEE Spectrum Magazine" 
 width="70%" 
-link="/images/uploads/IEEE Spectrum-Kissenger_page-0002.webp" 
+link="uploads/press/IEEE Spectrum-Kissenger_page-0002.webp" 
 target="_blank" 
 >}}
 
-{{< figure src="/images/uploads/IEEE Spectrum-Kissenger_page-0003.webp" alt="Kissenger featured in IEEE Spectrum Magazine" 
+{{< figure src="uploads/press/IEEE Spectrum-Kissenger_page-0003.webp" alt="Kissenger featured in IEEE Spectrum Magazine" 
 width="30%" 
-link="/images/uploads/IEEE Spectrum-Kissenger_page-0003.webp" 
+link="uploads/press/IEEE Spectrum-Kissenger_page-0003.webp" 
 target="_blank" 
 >}}
 

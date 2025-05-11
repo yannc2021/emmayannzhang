@@ -1,4 +1,3 @@
-
 {{- $inner := . -}}
 {{- if or (eq $inner "") (eq $inner nil) -}}
     {{- with page.Site.GetPage "bricks/posts.md" -}}

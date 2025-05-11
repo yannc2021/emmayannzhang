@@ -2,7 +2,7 @@
 title: "Bo Ruberg. Sex Dolls at Sea: Imagined Histories of Sexual Technologies."
 date: 2023-01-01
 link: "https://www.journals.uchicago.edu/doi/10.1086/725548"
-buttonText: ""
+publication_type: review
 picture: ""
 authors: "Emma Yann Zhang"
 journal: "Winterthur Portfolio 57(1), 97–98. The University of Chicago Press"

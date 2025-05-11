@@ -1,13 +1,20 @@
 ---
-title: Blog
+title: "Blog"
+date: 2025-04-05T10:35:56+08:00
+draft: false
 ---
-{{< brick_posts >}}
 
+
+{{< brick_title >}}
 {{< breadcrumbs >}}
 
-# Blog posts
+![](/uploads/photos/blog-header.jpg)
 
-This is a demo of the blog. In ultricies vel enim vel pulvinar. Quisque finibus sem velit, sed consequat mi ullamcorper vitae. Proin finibus tristique sollicitudin.
+# Blog
 
+{{< /brick_title >}}
+
+
+{{< brick_posts >}}
+Here's a collection of my press and media features — from news articles and interviews to TV and radio appearances.
 {{< /brick_posts >}}
-{{< brick_cta >}}{{< /brick_cta >}}

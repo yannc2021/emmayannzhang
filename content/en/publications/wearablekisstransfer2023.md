@@ -2,7 +2,7 @@
 title: "Wearable Technology in Emotive Communication: An In-depth Exploration of the Kiss Transfer Mechanism and Its Implications for Human-Human Interactions"
 date: 2023-11-16
 link: "https://aber.apacsci.com/index.php/wt/article/view/2299"
-buttonText: ""
+publication_type: original article
 picture: ""
 authors: "Emma Yann Zhang, Adrian David Cheok, Ying Yan, Jun Cai, Zhigeng Pan"
 journal: "Wearable Technology, 4(1), 22-99"

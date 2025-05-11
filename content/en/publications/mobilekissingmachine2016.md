@@ -2,7 +2,7 @@
 title: "A Multimodal Networked Kissing Machine for Mobile Phones"
 date: 2016-09-06
 link: "https://dl.acm.org/doi/abs/10.1145/2957265.2963115"
-buttonText: ""
+publication_type: original article
 picture: ""
 authors: "Emma Yann Zhang"
 journal: "Proceedings of the 18th International Conference on Human-Computer Interaction with Mobile Devices and Services Adjunct (pp. 911-913). ACM"

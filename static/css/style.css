@@ -10,7 +10,7 @@
 :root {
     --textDarker: #1e282d;
     --textDark: rgba(38, 50, 56, 1);
-    --textMedium: rgba(38, 50, 56, 0.7);
+    --textMedium: rgba(38, 50, 56, 0.8);
     --borderMedium: rgba(38, 50, 56, 0.2);
     --borderLight: rgba(38, 50, 56, 0.075);
     --accent: #FF6154;
@@ -98,5 +98,45 @@ section.cta iframe {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+section.bgimage .overlay {background: rgba(0,0,0,0.8) !important;}
+
+/* Footer logo overlay */
+
+.footer-logo-white {
+    filter: invert(1) brightness(100);
+}
+
+/* Publication List Custom Styles */
+.publications-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.publications-list li.item {
+  margin-bottom: 2.2rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid var(--borderMedium);
+}
+.publications-list .pub-details h3 {
+  margin: 0 0 0.3rem 0;
+  font-size: 1.1rem;
+}
+.publications-list .pub-details h3 a {
+  color: var(--textDarker);
+}
+.publications-list .pub-details p {
+  margin: 0.2rem 0 0.2rem 0;
+  color: var(--textDark);
+}
+.publications-list .pub-details .pub-abstract {
+  color: var(--textMedium);
+  margin-top: 0.2rem;
+}
+.publications-list .pub-details .pub-meta {
+  color: var(--textMedium);
+  margin-bottom: 0.3rem;
+  font-style: italic;
 }
 

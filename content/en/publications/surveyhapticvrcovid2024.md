@@ -2,7 +2,7 @@
 title: "Survey on Haptic Technologies for Virtual Reality Applications During COVID-19"
 date: 2024-01-01
 link: "https://aber.apacsci.com/index.php/met/article/view/2493"
-buttonText: ""
+publication_type: review
 picture: ""
 authors: "Emma Yann Zhang, Adrian David Cheok, Zhigeng Pan, Jun Cai, Ying Yan"
 journal: "Metaverse, 5(2): 1–15"

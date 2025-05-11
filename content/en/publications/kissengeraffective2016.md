@@ -2,7 +2,7 @@
 title: "Kissenger - Development of a Remote Kissing Device for Affective Communication"
 date: 2016-11-09
 link: "https://dl.acm.org/doi/abs/10.1145/3001773.3001831"
-buttonText: ""
+publication_type: original article
 picture: ""
 authors: "Emma Yann Zhang, Adrian David Cheok, Shogo Nishiguchi, Yukihiro Morisawa"
 journal: "Proceedings of the 13th International Conference on Advances in Computer Entertainment Technology (p. 25). ACM"

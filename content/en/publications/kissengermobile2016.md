@@ -2,7 +2,7 @@
 title: "Kissenger - Development of a Real-time Internet Kiss Communication Interface for Mobile Phones"
 date: 2017-04-18 
 link: "https://link.springer.com/chapter/10.1007/978-3-319-57738-8_11"
-buttonText: ""
+publication_type: original article
 picture: ""
 authors: "Emma Yann Zhang, Shogo Nishiguchi, Adrian David Cheok & Yukihiro Morisawa"
 journal: "Cheok, A., Devlin, K., Levy, D. (eds) Love and Sex with Robots. LSR 2016. Lecture Notes in Computer Science, vol 10237. Springer, Cham."

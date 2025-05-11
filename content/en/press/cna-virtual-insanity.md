@@ -2,7 +2,7 @@
 title: 'Kissenger, Digital Smell and Taste Technology, and Robots'
 date: 2025-04-23T12:15:27+08:00
 link: ""
-picture: "/images/uploads/CNA Virtual Insanity.webp"
+image: "uploads/press/CNA Virtual Insanity.webp"
 source: "TV Programme on Channel News Asia"
 draft: false
 ---
