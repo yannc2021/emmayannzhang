@@ -15,7 +15,7 @@
       {{- markdownify $inner -}}
     </div>
     {{ end }}
-    <div class="container">
+    <div class="container medium">
       <!-- <div class="filter">
         <select id="filter" class="multiselecttags numbers_{{ site.Data.settings.filter_has_numbers }}" multiple autocomplete="off" title="Filter publication type">
             <option value="" selected>All publication types</option>
@@ -24,7 +24,7 @@
             {{ end }}
         </select>
       </div> -->
-      <ul class="contentitems publications-list" data-pagesize="{{ site.Data.settings.page_size }}">
+      <ul class="contentitems publications-list" >
         {{ range $posts }}
         <li class="item publication-item{{ with .Params.publication_type }} tag_{{ . | urlize }}{{ end }}">
           <div class="pub-details">

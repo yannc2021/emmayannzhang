@@ -133,6 +133,7 @@ section.bgimage .overlay {background: rgba(0,0,0,0.8) !important;}
 .publications-list .pub-details .pub-abstract {
   color: var(--textMedium);
   margin-top: 0.2rem;
+  text-align: justify;
 }
 .publications-list .pub-details .pub-meta {
   color: var(--textMedium);
