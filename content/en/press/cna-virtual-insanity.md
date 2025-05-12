@@ -9,6 +9,5 @@ draft: false
 
 In this feature on Channel News Asia's "Virtual Insanity", I introduced Kissenger, a device designed to send virtual kisses through your smartphone. By adding touch, taste, and smell to digital communication, researchers at Imagineering Institute believe mixed reality will go beyond visuals to recreate full sensory presence.
 
-<div style="padding: 20px 0; max-width: 560px; margin: auto;">
-    {{< youtube id="SQe-s385aAI" >}}
-</div>
+
+{{< youtube "SQe-s385aAI" "uploads/press/CNA Virtual Insanity.webp" >}}

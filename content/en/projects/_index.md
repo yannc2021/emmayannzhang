@@ -7,7 +7,7 @@ draft: false
 {{< brick_title >}}
 {{< breadcrumbs >}}
 
-![](/uploads/photos/human-robot-touch.jpg)
+![](/uploads/photos/work-header.jpg)
 
 # Work
 

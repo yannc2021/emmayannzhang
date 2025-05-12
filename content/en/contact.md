@@ -5,23 +5,19 @@ title: Contact us
 
 {{< breadcrumbs >}}
 
-# Contact us
+# Let's connect
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed.
+
+Whether you're curious about Human-AI relationships, want to collaborate on a research project, or have press inquiries about KissengerAI—I'd love to hear from you. Feel free to reach out using the form, send me an email, or DM me on my socials directly.
 
 {{< /brick_title >}}
 {{< brick_contact >}}
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed.
+Join me on KissengerAI: [kissengerai.com](https://kissengerai.com)
 
-Soetendaal 7  
-1081BL Amsterdam  
-The Netherlands
+My email: emma@imagineeringinstitute.org  
 
-joost@vdschee.nl  
-+31 618 518 928
 
 {{< socialbuttons >}}
 
 {{< /brick_contact >}}
-{{< brick_map >}}{{< /brick_map >}}

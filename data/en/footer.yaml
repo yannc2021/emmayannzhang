@@ -2,10 +2,14 @@ logo_image:
 menuitems:
   - title: About
     link:  /about/
-  - title: Elements
-    link:  /elements/
-  - title: Privacy policy
-    link:  /privacy-policy/
+  - title: Work
+    link: /work/
+  - title: Publications
+    link: /publications/
+  - title: Press
+    link: /press/
+  - title: Blog
+    link: /blog/
 socials:
   - title: LinkedIn
     link: https://www.linkedin.com/in/emmayannzhang/

@@ -9,6 +9,6 @@ draft: false
 
 Watch Emma Yann Zhang and Adrian David Cheok discuss the groundbreaking Kissenger technology in a live interview on BBC World News. Discover how this innovation is bringing physical touch to remote communication in the digital age. 
 
-<div style="padding: 20px 0; max-width: 560px; margin: auto;">
-    {{< youtube id="VZPf5BE7__w" >}}
-</div>
+
+
+{{< youtube "VZPf5BE7__w" "uploads/press/BBC Kissenger Demo YouTube Thumbnail.png" >}}

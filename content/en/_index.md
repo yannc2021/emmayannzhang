@@ -1,5 +1,8 @@
 ---
 title: Home
+seo:
+  title: Emma Yann Zhang | Researcher in Human-AI Interactions & Founder of KissengerAI
+  description: "Emma Yann Zhang is a leading researcher in human-AI interactions, human-robot relationships, affective computing, touch and haptic technology. She is creator of Kissenger and Founder of KissengerAI. Explore her work, resesarch, and publications."
 ---
 
 {{< hero >}}
@@ -35,10 +38,4 @@ A comprehensive exploration of the emotional, social, and technological dimensio
 
 {{< /brick_image2 >}}
 
-{{< brick_cta >}}
-
-  ## Subscribe to my newsletter on Substack  
-  <iframe src="https://rejectandpublish.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
-
-
-{{< /brick_cta >}}
+{{< brick_cta >}}{{< /brick_cta >}}

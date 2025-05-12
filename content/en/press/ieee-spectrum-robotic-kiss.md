@@ -18,18 +18,16 @@ My work is a mobile device allows loved ones to share a kiss even when miles apa
 
 {{< figure src="uploads/press/IEEE Spectrum-Kissenger_page-0001.webp" alt="Kissenger featured in IEEE Spectrum Magazine" 
 width="30%"
-link="uploads/press/IEEE Spectrum-Kissenger_page-0001.webp"
-target="_blank"
->}}
+link="/uploads/press/IEEE Spectrum-Kissenger_page-0001.webp"
+target="_blank">}}
+
 {{< figure src="uploads/press/IEEE Spectrum-Kissenger_page-0002.webp" alt="Kissenger featured in IEEE Spectrum Magazine" 
 width="70%" 
-link="uploads/press/IEEE Spectrum-Kissenger_page-0002.webp" 
-target="_blank" 
->}}
+link="/uploads/press/IEEE Spectrum-Kissenger_page-0002.webp" 
+target="_blank" >}}
 
 {{< figure src="uploads/press/IEEE Spectrum-Kissenger_page-0003.webp" alt="Kissenger featured in IEEE Spectrum Magazine" 
 width="30%" 
-link="uploads/press/IEEE Spectrum-Kissenger_page-0003.webp" 
-target="_blank" 
->}}
+link="/uploads/press/IEEE Spectrum-Kissenger_page-0003.webp" 
+target="_blank" >}}
 

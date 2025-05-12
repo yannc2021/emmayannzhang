@@ -6,10 +6,8 @@ image: "uploads/press/bbcworldservice-thumbnail.webp"
 date: 2025-04-23T12:15:27+08:00
 draft: false
 ---
-{{< figure 
-src="uploads/press/bbcworldservice-thumbnail.webp" 
-alt="BBC World Service Thumbnail" 
-caption="Source:[bbc.co.uk](http://www.bbc.co.uk/programmes/p04m8sjn)" width="50%" >}}
+
+{{<audio "/uploads/audio/2016Dec_BBC World Service_Kissenger.mp3">}}
 
 This is my radio appearance on BBC World Service, where I discuss Kissenger, an intriguing new technology that allows people to share a kiss over the internet. 
 
