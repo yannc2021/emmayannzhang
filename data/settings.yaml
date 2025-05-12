@@ -1,4 +1,4 @@
-favicon_image: /uploads/branding/favicon.svg
+favicon_image: /uploads/branding/favicon.ico
 color_name:
 sticky_header: true
 dark_header: false
@@ -11,3 +11,5 @@ show_all_services: true
 preheader: 
   active: false
   is_light: true
+google_analytics_id: G-PZF62ESS8H
+og_image: /uploads/branding/og-image.png
