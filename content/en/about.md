@@ -17,7 +17,7 @@ My story has been far from the conventional paths taken by many. I’ve lived an
 
 Now, I’m building my next chapter with [KissengerAI](kissengerai.com), [Reject & Publish](rejectandpublish.substack.com/), and a growing community of people who believe that technology can be intimate, emotional, and deeply human. I'm creating things that not only touch people's skin, but also touch their emotions. 
 
-Follow me to join me in this journey.
+Follow me to join me on this journey.
 
 {{< socialbuttons >}}
 

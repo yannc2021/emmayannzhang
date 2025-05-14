@@ -3,6 +3,8 @@ logo_subtitle:
 dark_header: false
 mobile_view_width: 1100
 menuitems:
+  - title: About Me
+    link: /about/
   - title: Work
     link: /work/
   - title: Publications
