@@ -16,5 +16,5 @@ draft: false
 
 
 {{< brick_posts >}}
-Here's a collection of my press and media features — from news articles and interviews to TV and radio appearances.
+Welcome to my blog, where I share personal insights, stories, and updates on my research, professional work, and personal journey.
 {{< /brick_posts >}}
