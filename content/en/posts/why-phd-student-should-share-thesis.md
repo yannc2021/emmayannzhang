@@ -2,6 +2,7 @@
 title: 'Why Every PhD Student Should Share Their Thesis with the World'
 image: /uploads/blog/phd-thesis.webp
 date: 2025-04-12T08:37:46+08:00
+draft: false
 tags: 
   - academic branding
   - phd

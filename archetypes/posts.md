@@ -1,8 +1,8 @@
 ---
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 date: {{ .Date }}
-categories: 
-    - Research
+image: 
+draft: false
 tags: 
     - example
     - template

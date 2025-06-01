@@ -2,6 +2,7 @@
 title: Why AI Companions Are Trending in 2025
 image: /uploads/blog/empathetic AI robot.png
 date: 2025-05-12T08:37:46+08:00
+draft: false
 tags:
   - AI companions
   - AI friends

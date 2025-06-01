@@ -2,8 +2,7 @@
 title: 'Starting a new blog on touch and Emotional-AI'
 image: /uploads/blog/human-robot-hands.png
 date: 2025-04-11T08:37:46+08:00
-categories: 
-    - Research
+draft: false
 tags: 
     - Human-AI Interaction
     - Haptic-AI
