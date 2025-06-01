@@ -1,6 +1,6 @@
 ---
 title: "Haptic-AI Framework: Integrating Touch Into AI Systems"
-date: 2025-06-01T11:27:00.000Z
+date: 2025-06-01T10:35:00.000Z
 draft: false
 image: /uploads/haptic_ai_framework.jpg
 tags:
