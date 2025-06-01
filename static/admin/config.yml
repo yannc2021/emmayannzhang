@@ -13,7 +13,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime", default: "{{now}}"}
+      - { label: "Date", name: "date", widget: "datetime", default: "{{now}}", picker_utc: false}
       - { label: "Draft", name: "draft", widget: "boolean", default: false }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Tags", name: "tags", widget: "list", default: ["research"]}

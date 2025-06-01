@@ -4,7 +4,8 @@
         {{- $inner = .RawContent -}}
     {{- end -}}
 {{- end -}}
-{{- $posts := where page.Site.RegularPages "Section" "posts" -}}
+{{- $posts := where (where page.Site.RegularPages "Section" "posts") ".Draft" false -}}
+
 <section class="posts">
     {{ if $inner }}<div class="container small">
         {{- markdownify $inner -}}
