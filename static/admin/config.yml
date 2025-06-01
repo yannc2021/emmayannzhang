@@ -8,7 +8,7 @@ public_folder: "/uploads"
 collections:
   - name: "blog"
     label: "Blog Posts"
-    folder: "content/posts"
+    folder: "content/en/posts"
     create: true
     slug: "{{slug}}"
     fields:
@@ -22,7 +22,7 @@ collections:
 
   - name: "projects"
     label: "Projects"
-    folder: "content/projects"
+    folder: "content/en/projects"
     create: true
     slug: "{{slug}}"
     fields:
@@ -54,7 +54,7 @@ collections:
 
   - name: "education"
     label: "Education"
-    folder: "content/education"
+    folder: "content/en/education"
     create: true
     slug: "{{slug}}"
     fields:
@@ -67,7 +67,7 @@ collections:
 
   - name: "experience"
     label: "Experience"
-    folder: "content/experience"
+    folder: "content/en/experience"
     create: true
     slug: "{{slug}}"
     fields:
@@ -82,7 +82,7 @@ collections:
 
   - name: "client-work"
     label: "Client Work"
-    folder: "content/client-work"
+    folder: "content/en/client-work"
     create: true
     slug: "{{slug}}"
     fields:
@@ -91,7 +91,7 @@ collections:
 
   - name: "publications"
     label: "Publications"
-    folder: "content/publications"
+    folder: "content/en/publications"
     create: true
     slug: "{{slug}}"
     fields:
@@ -108,7 +108,7 @@ collections:
 
   - name: "press"
     label: "Press"
-    folder: "content/press"
+    folder: "content/en/press"
     create: true
     slug: "{{slug}}"
     fields:
