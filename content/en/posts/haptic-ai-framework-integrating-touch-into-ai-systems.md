@@ -12,6 +12,9 @@ If we’re going to co-exist with AI that share our physical spaces, we should b
 
 ## The Haptic-AI Framework
 
+{{< youtube "x0FvINDFqnk" "uploads/blog/haptic-ai-youtube-cover.png" >}}
+
+
 I designed the Haptic-AI framework to provide a structured overview of how we can integrate touch into AI systems. The primary purpose of this framework is to identify the various components required for integrating touch in AI systems. I put this framework together after consolidating research across multiple disciplines, including affective computing, haptic technology, machine learning, human-computer interaction, human-robot interaction, human-AI interaction, neuroscience, and psychology.
 
 This is what I summarized into four core layers that work together to create AI systems capable of perceiving, understanding, and responding to touch.
