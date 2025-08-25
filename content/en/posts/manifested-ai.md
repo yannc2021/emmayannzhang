@@ -2,12 +2,11 @@
 title: "Manifested AI Needs More Than Vision. What is Touch Emotion Recognition?"
 date: 2025-08-24T18:35:00.000+08:00
 draft: false
-image: /uploads/posts/TER_Taxonomy.png
+image: /uploads/blog/TER_Taxonomy.png
 tags:
   - research
 ---
 Manifested AI, physical AI, embodied AI — call it what you like, it is the next big shift in AI research and industry. Elon Musk, Mark Zuckerberg, Jensen Huang, and the many other big players in AI are already betting billions on this vision. Jeff Brown even claims [manifested](https://www.newswire.com/news/manifested-ai-signals-major-shift-in-robotics-brownstone-research-22611713) AI could ignite a $25 trillion humanoid robotics boom.
-
 
 So what does Silicon Valley’s latest buzzword **“manifested AI”** actually mean?  
 
@@ -30,6 +29,8 @@ If we are going to share our physical spaces and build humanistic relationships 
 This is where my latest research comes in. Last week, after a year-long review process, my paper titled [Emotion Recognition Using Affective Touch: A Survey](https://ieeexplore.ieee.org/document/11123704) was finally published in *IEEE Transactions on Affective Computing*.  
 
 It is a comprehensive survey of what I term **Touch Emotion Recognition (TER)** — an emerging field in affective computing focused on interpreting human emotions through touch interactions.
+
+{{< figure src="/uploads/blog/TER_Taxonomy.png" alt="Touch Emotion Recognition (TER)" caption="A proposed taxonomy for Touch Emotion Recognition (TER) that categorizes studies based on three key dimensions: recognition entity, recognition approach and type of touch gestures." >}}
 
 
 The paper reviews the current state of TER:

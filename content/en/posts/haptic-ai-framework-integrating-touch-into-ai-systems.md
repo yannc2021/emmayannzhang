@@ -19,7 +19,7 @@ I designed the Haptic-AI framework to provide a structured overview of how we ca
 
 This is what I summarized into four core layers that work together to create AI systems capable of perceiving, understanding, and responding to touch.
 
-![The Haptic-AI Framework](/uploads/haptic_ai_framework.jpg "The Haptic-AI Framework")
+{{< figure src="/uploads/blog/TER_Taxonomy.png" alt="The Haptic-AI Framework" caption="The Haptic-AI Framework" >}}
 
 🔸 **Perception Layer**
 This is the sensory front line, capturing touch input with haptic-sensing interfaces. It can also be designed to integrate with other sensory data—vision, voice, text—to give AI a multi-dimensional understanding of what’s happening.
